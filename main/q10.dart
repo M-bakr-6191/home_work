@@ -1,0 +1,6 @@
+void main() {
+//   Question 10
+// Explain what happens if you try to use a variable before it is declared in Dart.
+// answer it will throw an exception that the variable is not defined
+ 
+}
