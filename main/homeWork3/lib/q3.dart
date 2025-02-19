@@ -1,5 +1,3 @@
-
-
 void main() {
 // 3. To-Do List App:
 // Create a to-do list program using a List where each item has a description, due date, and
@@ -19,7 +17,8 @@ void main() {
   three.dueDate = '2050';
 
   List<Task> tasks = [one, two];
-  update(tasks, three);
+  remove(tasks, 1);
+  print(tasks);
 }
 
 class Task {

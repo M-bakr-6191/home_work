@@ -8,7 +8,7 @@ humidity, etc.). Write a function that can retrieve and print weather details us
     {'city': 'cairo', 'humidity': '20', 'temperature': '20'},
     {'city': 'Beriut', 'humidity': '17', 'temperature': '16'}
   ];
-  weatherDetalis(weatherData, 'Beriut');
+  weatherDetalis(weatherData, 'cairo');
 }
 
 void weatherDetalis(List<Map<String, String>> weatherCities, String city) {
