@@ -13,7 +13,7 @@ void main() {
 class Book {
   String tittle;
   String author;
-String isBn;
+  String isBn;
   bool isAvailable;
 
   Book(
@@ -24,19 +24,25 @@ String isBn;
 }
 
 class Library {
-Book book;
+  Book book;
   List<Book> books = [];
 
   Library(this.book);
   void addbook(Book book) {
     books.add(book);
   }
-void  borrowBook(String isBn){
-  for(var book in books){
-    if(book.isAvailable==true){
 
-      
+  void borrowBook(String isBn) {
+    for (var book in books) {
+      if (book.isAvailable == true) {}
+    }
+
+    Book? SearchbyTittle(String title) {
+      for (var book in books) {
+        if (book.tittle == title) {
+          return book;
+        }
+      }
     }
   }
-}
 }
