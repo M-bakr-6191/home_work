@@ -74,33 +74,33 @@ class MyApp extends StatelessWidget {
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '1',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent),
+                              ))),
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '2',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent),
+                              ))),
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '3',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent)
+                              )))
                         ],
                       ),
                       Row(
@@ -109,33 +109,33 @@ class MyApp extends StatelessWidget {
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '4',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent),
+                              ))),
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '5',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent),
+                              ))),
                           Container(
                               width: 70,
                               height: 70,
+                              color: Colors.deepPurpleAccent,
                               child: Center(
                                   child: Text(
                                 '6',
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 20),
-                              )),
-                              color: Colors.deepPurpleAccent)
+                              )))
                         ],
                       )
                     ],
